@@ -1,1 +1,113 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(245, 245, 245);
+    font-family: "Open Sans";
+    font-size: 16px;
+    width: 100%;
+    border: .5px solid black;
+}
+
+.cabecera {
+    background: url("assets/bg.jpg");
+}
+
+.contenedor-texto {
+    text-align: left;
+    float: right;
+    height: 300px;
+}
+
+.contenedor-texto .texto {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.contenedor-menu {
+    text-align: right;
+    float: left;
+    height: 300px;
+}
+
+.contenedor-menu .menu {
+    margin: 15px;
+    font-size: 20px;
+}
+
+.contenedor-menu .menu a {
+    margin-left: 8px;
+}
+
+.contenedor-acerca-de {
+    float: right;
+    background: rgb(255,255,255);
+    text-align: left;
+    width: 50%;
+    margin: -82px 0 10px 0;
+    padding: 5px 10px 10px 10px;
+    border: solid 0.5px black;
+    border-radius: 10px;
+}
+
+.contenedor-acerca-de h2 {
+    text-align: center;
+}
+
+.contenedor-estudios {
+    background: rgb(245, 245, 245);
+    margin: 10px 0 10px 0;
+}
+
+.estudios-h1 {
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contenedor-estudios .html, .css, .bootstrap, .typescript, .git, .gh {
+    font-size: 50px;
+    height: 100px;
+}
+
+.contenedor-estudios .html:hover, .css:hover, .bootstrap:hover, .typescript:hover, .git:hover, .gh:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.imagen {
+    width: 90%;
+    background: white;
+}
+.imagen img {
+    float: left;
+    width: 200px;
+    margin: -100px 0 0 10px;
+    border: solid black 1px;
+    border-radius: 50%;
+    background: white;
+}
+
+
+.contenedor-redes-sociales {
+    background: rgb(230, 230, 230);
+    text-align: right;
+    height: 200px;
+}
+
+.contenedor-contactos .contacto {
+    text-align: left;
+    font-size: 20px;
+    background: rgb(230, 230, 230);
+}
+
+.contacto h1 {
+    margin-bottom: 10px;
+}
+
+.contenedor-contactos, .contenedor-redes-sociales img {
+    width: 40px;
+    margin-top: 10px;
+}
